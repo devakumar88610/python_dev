@@ -6,6 +6,7 @@ def val_pincode(pincode):
 
     if regex.match(pincode):
         return True
+
     else:
         return False
 
